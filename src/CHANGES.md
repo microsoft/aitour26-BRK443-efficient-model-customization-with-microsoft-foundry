@@ -23,8 +23,8 @@ This commit refactors the repo to remove unused content and create self-containe
 
 INFRA FOR **CORE DEMOS**
 
-- The repository uses a custom branch of the [_ForBeginners AZD Template_](https://github.com/microsoft/ForBeginners/tree/aitour26-demos) that is based on the Get-Started-With-AI-Agents template for Azure AI Foundry.
-    - This will set up a Azure resource group with an Azure AI Foundry resource and project that has {An AI Agent, A Chat Model, An Embedding Model, A Web App, An AI Search resource, Tracing & Monitoring activated}
+- The repository uses a custom branch of the [_ForBeginners AZD Template_](https://github.com/microsoft/ForBeginners/tree/aitour26-demos) that is based on the Get-Started-With-AI-Agents template for Microsoft Foundry.
+    - This will set up a Azure resource group with an Microsoft Foundry resource and project that has {An AI Agent, A Chat Model, An Embedding Model, A Web App, An AI Search resource, Tracing & Monitoring activated}
     - Use the `infra/2-add-models.sh` script to deploy additional models after the initial provisioning step. 
 - Pick the default base model for fine-tuning (default is gpt-4.1, but you may want gpt-4o)
 - Pick a region that has support for [Fine-tuning](https://learn.microsoft.com/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai&tabs=global-standard-aoai%2Cstandard-chat-completions%2Cglobal-standard#fine-tuning-models) and [Azure AI Search](https://learn.microsoft.com/azure/search/search-region-support#americas).

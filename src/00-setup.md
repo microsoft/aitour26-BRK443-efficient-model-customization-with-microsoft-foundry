@@ -261,4 +261,4 @@ Yes. Note that the `infra/1-get-env.sh` script only needs your subscription and 
 
 ---
 
-**🎉 Congratulations!** Your lab environment is ready. Start exploring the power of Azure AI Foundry!
+**🎉 Congratulations!** Your environment is ready. Start exploring the power of Microsoft Foundry!

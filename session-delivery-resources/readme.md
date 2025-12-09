@@ -52,7 +52,7 @@ The talk is structured as four acts. Here is how we suggest you allocate time:
 
 - **Row 1** - _Welcome_: Introduction & Agenda (1 min)
 - **Row 2** - _Act 1_: Unlock Business Value with Fine Tuning (10 min)
-- **Row 3** - _Act 2_: Fine Tuning In Azure AI Foundry (Demo) (10 min)
+- **Row 3** - _Act 2_: Fine Tuning In Microsoft Foundry (Demo) (10 min)
 - **Row 4** - _Act 3_: Retrieval Augmented Fine Tuning (Demo) (10 min)
 - **Row 5** - _Wrap-up_: Take-away Messages & CTAs (4 min)
 
@@ -61,7 +61,7 @@ The table below gives a slighly more detailed breakdown - this is a recommended 
 | Row | Time | Description | Slides |
 |:---|:---|:---|:---|
 | 1 | 1 min | Welcome attendees · Introduce yourself and session topic | 3-4 |
-| 2 | 10 min  | Introduce Zava Scenario · Explain their model customization journey · How can Azure AI Foundry help Zava? | 5-11 |
+| 2 | 10 min  | Introduce Zava Scenario · Explain their model customization journey · How can Microsoft Foundry help Zava? | 5-11 |
 | 3 | 2 min  | Introduce fine-tuning options on Azure · Explain platform benefits | 12-15 |
 |  | 4 min  | How Basic Fine Tuning Works · Let's See The Demo  | 14, Play Recording |
 |  | 4 min  | How Distillation Works · Let's See The Demo  | 16, Play Recording |
