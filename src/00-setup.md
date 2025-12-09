@@ -1,8 +1,4 @@
-# Setup For Self-Guided Learners
-
-Use this guide if you are working on these labs on your own at home!
-
----
+# Setup Instructions for demos
 
 ## 📋 1. Pre-Requisites
 
@@ -186,7 +182,7 @@ In addition, we want to be able to show _model selection_ with evaluators and gr
 ============================================================
 📊 VALIDATION SUMMARY
 ============================================================
-✅ Valid variables: 47
+✅ Valid variables: 37
 ❌ Missing variables: 0
 
 🎉 All environment variables are properly configured!
@@ -201,9 +197,7 @@ In addition, we want to be able to show _model selection_ with evaluators and gr
 _Your infrastructure is now ready! You can now launch the instruction guide and start working through the labs!_.
 
 1. Open a new terminal in VS Code.
-1. Type `mkdocs serve` - wait a few seconds to see the pop-up dialog
-1. Confirm you want to open this in browser.
-1. _You should see an instruction guide for labs in website preview_. 
+1. Type `pip install -r requirements.txt` - wait a for all the resources to be installed.
 
 **Start with the Validate Setup lab - then keep going**:
 

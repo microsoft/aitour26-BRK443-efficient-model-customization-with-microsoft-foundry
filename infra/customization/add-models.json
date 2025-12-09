@@ -1,17 +1,5 @@
 [
   {
-    "name": "model-router",
-    "model": {
-      "format": "OpenAI",
-      "name": "model-router",
-      "version": "2025-05-19"
-    },
-    "sku": {
-      "name": "GlobalStandard",
-      "capacity": 20
-    }
-  },
-  {
     "name": "gpt-4.1",
     "model": {
       "format": "OpenAI",

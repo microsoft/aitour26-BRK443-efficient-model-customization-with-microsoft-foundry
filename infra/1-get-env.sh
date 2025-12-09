@@ -296,6 +296,25 @@ else
     echo -e "  • AI Search API Key: ${YELLOW}⚠ Not retrieved${NC}"
 fi
 
+echo -e "\n${YELLOW}📋 Agent Model Configuration:${NC}"
+echo -e "  • Agent Model: $AZURE_AI_AGENT_MODEL_NAME"
+echo -e "  • Agent Version: $AZURE_AI_AGENT_MODEL_VERSION"
+echo -e "  • Agent Deployment: $AZURE_AI_AGENT_DEPLOYMENT_NAME"
+echo -e "  • Agent Capacity: $AZURE_AI_AGENT_DEPLOYMENT_CAPACITY"
+
+echo -e "\n${YELLOW}📋 Embedding Model Configuration:${NC}"
+if [ -n "$AZURE_AI_EMBED_MODEL_NAME" ]; then
+    echo -e "  • Embed Model: ${GREEN}$AZURE_AI_EMBED_MODEL_NAME${NC}"
+    echo -e "  • Embed Version: ${GREEN}$AZURE_AI_EMBED_MODEL_VERSION${NC}"
+    echo -e "  • Embed Deployment: ${GREEN}$AZURE_AI_EMBED_DEPLOYMENT_NAME${NC}"
+    echo -e "  • Embed Capacity: ${GREEN}$AZURE_AI_EMBED_DEPLOYMENT_CAPACITY${NC}"
+    echo -e "  • Embed SKU: ${GREEN}$AZURE_AI_EMBED_DEPLOYMENT_SKU${NC}"
+    echo -e "  • Embed Format: ${GREEN}$AZURE_AI_EMBED_MODEL_FORMAT${NC}"
+else
+    echo -e "  ${YELLOW}⚠ Embedding model not configured${NC}"
+fi
+
+echo -e "\n${YELLOW}📋 Container & Service:${NC}"
 echo -e "  • Container Registry: $AZURE_CONTAINER_REGISTRY_ENDPOINT"
 echo -e "  • Service API URI: $SERVICE_API_URI"
 
