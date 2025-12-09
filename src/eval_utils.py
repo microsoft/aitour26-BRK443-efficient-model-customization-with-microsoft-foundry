@@ -248,7 +248,8 @@ def get_eval_run_output_items(client: openai.Client, eval_id: str, run_id: str) 
         for page in response.iter_pages():
             for item in page.data:
                 for result in item.results:
-                    score = result.get("score")
+                    # Use attribute access since result is an SDK object, not a dictionary
+                    score = getattr(result, "score", None)
                     if score is not None:
                         scores.append(score)
     except Exception as e:

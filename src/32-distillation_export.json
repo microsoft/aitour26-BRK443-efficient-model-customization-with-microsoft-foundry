@@ -1,0 +1,945 @@
+{
+  "baseline_eval_id": "eval_693017c16c408191be3fb1d4099a482f",
+  "baseline_runs_ids": [
+    "evalrun_693017c242f4819193d30586e3f08144",
+    "evalrun_693017c306fc819196ad0202fa05c083",
+    "evalrun_693017c3b3e48191b86de9adf6fef507",
+    "evalrun_693017c4692c8191b0ade0aa4e0da432",
+    "evalrun_693017c5053081918c5c9408e9d460ed",
+    "evalrun_693017c6032c8191840a9bad859620a1",
+    "evalrun_693017c6ab9481919da76a209c2e572e"
+  ],
+  "baseline_runs_models": [
+    "o3",
+    "o4-mini",
+    "o3-mini",
+    "gpt-4.1-mini",
+    "gpt-4.1-nano",
+    "gpt-4o",
+    "gpt-4o-mini"
+  ],
+  "qa_validation": [
+    {
+      "item": {
+        "question": "What's the best way to paint laminate furniture?",
+        "answer": "Sand lightly, apply Universal Bonding Primer, then finish with Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint vinyl siding?",
+        "answer": "Clean thoroughly, allow to dry, and apply Exterior Acrylic Paint formulated for vinyl."
+      }
+    },
+    {
+      "item": {
+        "question": "What's a professional-grade paint tray?",
+        "answer": "Rolling Tray with Grid helps remove excess paint for even coverage."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a room with high ceilings?",
+        "answer": "Use an Extension Pole 4-foot with a roller, scaffolding or tall ladder for edges, and proper safety equipment."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to store leftover paint?",
+        "answer": "Seal the can tightly, store upside down in a cool, dry place away from extreme temperatures."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a high gloss finish on furniture?",
+        "answer": "Sand smooth between coats, apply quality paint designed for furniture, then seal with Gloss Polyurethane."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over glossy surfaces?",
+        "answer": "Sand to dull the gloss, clean thoroughly, and apply Universal Bonding Primer before painting."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a dark color with a light one?",
+        "answer": "Apply Stain-Blocking Primer first, then apply multiple coats of the light color as needed."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the stock level for Paper Drop Cloth?",
+        "answer": "3 units in stock."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a fence?",
+        "answer": "Clean, repair, apply Deck and Fence Stain or exterior paint with a sprayer for efficiency."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a fiberglass door?",
+        "answer": "Clean, sand lightly, apply Universal Bonding Primer, then finish with Exterior Acrylic Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint wrought iron railings?",
+        "answer": "Remove rust, apply Metal Primer, then finish with Rust Prevention Spray or quality exterior paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to touch up wall paint?",
+        "answer": "Use the original paint and application method, feathering the edges for a seamless blend."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint wood paneling?",
+        "answer": "Clean, sand lightly, apply Stain-Blocking Primer, then finish with your chosen paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to clean oil-based paint brushes?",
+        "answer": "Use mineral spirits or paint thinner, then wash with soap and water."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint unfinished wood furniture?",
+        "answer": "Sand smooth, apply appropriate wood primer, then finish with quality paint in desired sheen."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to prevent lap marks when painting walls?",
+        "answer": "Maintain a wet edge by working in small sections and using quality products like Interior Eggshell Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the proper way to clean synthetic paint brushes?",
+        "answer": "Rinse with warm water and mild soap until clear, reshape bristles, and hang to dry."
+      }
+    },
+    {
+      "item": {
+        "question": "How much does Stain-Blocking Primer cost?",
+        "answer": "$40."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint pressure-treated wood?",
+        "answer": "Allow to dry completely (3-6 months), then apply Deck and Fence Stain or exterior paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over a color washing technique?",
+        "answer": "Apply Stain-Blocking Primer to even out the surface, then paint with your chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "How long should polyurethane dry between coats?",
+        "answer": "2-4 hours for water-based, 24 hours for oil-based, but always check product specifications."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint behind a radiator?",
+        "answer": "Use a specialized radiator roller or Foam Brush Set attached to a thin, flexible handle."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the price of Zero VOC Interior Paint?",
+        "answer": "$52."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint ceramic tile?",
+        "answer": "Clean thoroughly, sand lightly, apply tile primer, then finish with specialized tile paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What brush is best for cutting in edges?",
+        "answer": "Angled Brush Set is designed for precision edge work and detailed painting."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint exposed basement ceiling pipes?",
+        "answer": "Clean thoroughly, apply Metal Primer, then paint with spray paint or quality paint in chosen color."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint gutters?",
+        "answer": "Clean thoroughly, prime with Metal Primer, then finish with Exterior Acrylic Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How can I get excess paint off my brush?",
+        "answer": "Use a Paint Bucket Grid to remove excess paint from brushes and rollers."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint terra cotta pots?",
+        "answer": "Clean thoroughly, apply Masonry Primer, then paint with exterior paint for durability."
+      }
+    },
+    {
+      "item": {
+        "question": "How much does Gel Stain cost?",
+        "answer": "$32."
+      }
+    },
+    {
+      "item": {
+        "question": "Is there a polyurethane that doesn't smell strongly?",
+        "answer": "Water-Based Polyurethane has low odor and dries quickly."
+      }
+    },
+    {
+      "item": {
+        "question": "What gives wood a traditional amber tone?",
+        "answer": "Oil-Based Polyurethane provides an amber tone for a classic wood finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a bathroom vanity top?",
+        "answer": "Use specialized countertop refinishing kit with proper preparation and sealing."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint trim around windows?",
+        "answer": "Use painter's tape on glass, apply Interior Semi-Gloss Paint with an Angled Brush Set for precision."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint popcorn ceilings?",
+        "answer": "Use Premium Interior Latex Flat with a thick nap roller, working in small sections to prevent debris fallout."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint rustic wood beams?",
+        "answer": "Clean thoroughly, apply appropriate primer or stain based on desired look, then finish as needed."
+      }
+    },
+    {
+      "item": {
+        "question": "What drop cloth works best for small projects?",
+        "answer": "Paper Drop Cloth is absorbent and easy to clean up for small projects."
+      }
+    },
+    {
+      "item": {
+        "question": "Can I apply stain over paint?",
+        "answer": "No, stain is designed to penetrate wood and won't adhere properly over paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over wallpaper borders?",
+        "answer": "Apply oil-based Stain-Blocking Primer, then paint with your chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint window trim?",
+        "answer": "Clean, sand, apply appropriate primer, then paint with Interior Semi-Gloss Paint using an Angled Brush Set."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a ceiling without roller marks?",
+        "answer": "Use Premium Interior Latex Flat with a quality roller, maintain a wet edge, and paint in one session."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a bathtub?",
+        "answer": "Use specialized bathtub refinishing kit with proper ventilation and surface preparation."
+      }
+    },
+    {
+      "item": {
+        "question": "What can I use for painting small areas?",
+        "answer": "Mini Roller Kit 4-inch is ideal for small areas and touch-ups."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint outdoor plastic furniture?",
+        "answer": "Clean thoroughly, sand lightly, apply plastic primer, then finish with spray paint formulated for plastic."
+      }
+    },
+    {
+      "item": {
+        "question": "Which roller covers provide the smoothest finish?",
+        "answer": "Microfiber Roller Covers provide smooth finishes with minimal lint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint wicker furniture?",
+        "answer": "Use spray paint like Gloss Spray Paint for even coverage in all the crevices."
+      }
+    },
+    {
+      "item": {
+        "question": "What type of paint should I use for bathroom walls?",
+        "answer": "Interior Semi-Gloss Paint, as it's moisture resistant and washable."
+      }
+    },
+    {
+      "item": {
+        "question": "What should I use on stucco exteriors?",
+        "answer": "Elastomeric Exterior Paint, as it's flexible and prevents water penetration on stucco."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to prevent spray paint from dripping?",
+        "answer": "Apply multiple light coats rather than one heavy coat, allowing drying time between applications."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the easiest way to mask windows when painting?",
+        "answer": "Pre-Taped Masking Film has plastic film with pre-applied tape for quick coverage."
+      }
+    },
+    {
+      "item": {
+        "question": "What stain brings out the wood grain best?",
+        "answer": "Oil-Based Wood Stain enhances wood grain with rich, deep color."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a room with chair rails?",
+        "answer": "Paint the upper and lower portions in coordinating colors, with Interior Semi-Gloss Paint on the trim."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a bedroom for better sleep?",
+        "answer": "Use calming colors like blue or green in a flat or eggshell finish to reduce light reflection."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I cover water stains on my ceiling?",
+        "answer": "Use Stain-Blocking Primer to prevent water stains from bleeding through."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best stain for outdoor furniture?",
+        "answer": "Semi-Transparent Deck Stain with UV protection for weather resistance."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a faux finish?",
+        "answer": "Sand lightly to smooth texture, apply Stain-Blocking Primer, then paint with your chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What primer should I use for heavily stained walls?",
+        "answer": "Stain-Blocking Primer prevents stains from bleeding through."
+      }
+    },
+    {
+      "item": {
+        "question": "How should I prepare walls before painting?",
+        "answer": "Clean, repair holes, sand smooth, and apply appropriate primer like Drywall Primer."
+      }
+    },
+    {
+      "item": {
+        "question": "What brushes should I use with oil-based paints?",
+        "answer": "Natural Bristle Brush Set provides superior flow and leveling for oil-based paints."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over wallpaper?",
+        "answer": "Ensure wallpaper is secure, apply oil-based Stain-Blocking Primer, then paint with chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a large wall without roller marks?",
+        "answer": "Use quality paint, maintain a wet edge, use proper roller technique, and work in manageable sections."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to apply polyurethane without bubbles?",
+        "answer": "Apply thin coats with a high-quality brush or foam applicator, working in the direction of the wood grain."
+      }
+    },
+    {
+      "item": {
+        "question": "Which exterior paint is best for preventing water damage?",
+        "answer": "Elastomeric Exterior Paint prevents water penetration and bridges hairline cracks."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a room to make it look bigger?",
+        "answer": "Use light colors like white or pale blue on walls and ceiling with semi-gloss or satin finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best drop cloth for protecting floors?",
+        "answer": "Canvas Drop Cloth 9x12 provides heavy-duty floor protection."
+      }
+    },
+    {
+      "item": {
+        "question": "What primer should I use before spray painting?",
+        "answer": "Aerosol Primer Spray specifically formulated for the surface material."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint wood furniture without brush marks?",
+        "answer": "Sand between coats, use quality Synthetic Brush Set or foam rollers, and apply thin coats."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I create a faux wood grain finish?",
+        "answer": "Apply base coat, use wood graining tool with glaze, then seal with Clear Polyurethane Satin."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I prevent brush marks when painting?",
+        "answer": "Use high-quality brushes like the Synthetic Brush Set and quality paint like Premium Interior Latex."
+      }
+    },
+    {
+      "item": {
+        "question": "What primer should I use for metal surfaces?",
+        "answer": "Metal Primer is specifically formulated for both ferrous and non-ferrous metals."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint window frames?",
+        "answer": "Clean, sand, repair, prime with appropriate primer, then paint with Angled Brush Set using Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a heavily textured wall?",
+        "answer": "Use thick nap roller covers from the Nap Roller Cover Set for complete coverage in textured areas."
+      }
+    },
+    {
+      "item": {
+        "question": "How can I reach high ceilings when painting?",
+        "answer": "Use an Extension Pole 4-foot to reduce ladder use when painting high areas."
+      }
+    },
+    {
+      "item": {
+        "question": "What's best for staining a deck that shows the wood grain?",
+        "answer": "Semi-Transparent Deck Stain allows wood grain to show through with UV protection."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I prevent brush strokes when painting furniture?",
+        "answer": "Use quality brushes, thin paint if needed, and apply in thin coats following the wood grain."
+      }
+    },
+    {
+      "item": {
+        "question": "Is there a spray paint that isn't shiny?",
+        "answer": "Yes, Matte Finish Spray Paint provides a non-reflective finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's a good clear finish for wood furniture?",
+        "answer": "Clear Polyurethane Satin provides a durable finish for furniture."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I remove paint from hardwood floors?",
+        "answer": "Use a non-aggressive paint remover and soft cloth, being careful not to damage the finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint around electrical outlets?",
+        "answer": "Turn off power, remove covers, paint carefully with an Angled Brush Set, replace covers when dry."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a small room to make it feel larger?",
+        "answer": "Use light colors with the same color or slightly lighter shade on the ceiling, and proper lighting."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a painted brick fireplace?",
+        "answer": "Clean thoroughly, repair as needed, prime if changing colors significantly, then paint with chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over peeling paint?",
+        "answer": "Remove loose paint, sand edges smooth, apply appropriate primer, then finish with quality paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint wood floors?",
+        "answer": "Sand thoroughly, clean, apply primer designed for floors, then finish with Floor Polyurethane or specialized floor paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a nursery safely?",
+        "answer": "Use Zero VOC Interior Paint with proper ventilation and allow plenty of drying time before use."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint accent walls?",
+        "answer": "Choose complementary color, use painter's tape for clean edges, apply 2 coats for rich color."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over semi-gloss paint?",
+        "answer": "Lightly sand to dull the finish, clean thoroughly, then apply new paint in your desired finish."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over textured wallpaper?",
+        "answer": "Ensure wallpaper is secure, apply oil-based Stain-Blocking Primer, then paint with chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I prevent color bleeding when painting stripes?",
+        "answer": "Use painter's tape, seal edges with a thin coat of the base color, then apply the stripe color once dry."
+      }
+    },
+    {
+      "item": {
+        "question": "What primer works on concrete surfaces?",
+        "answer": "Masonry Primer is alkali-resistant for concrete and stucco surfaces."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint behind a toilet?",
+        "answer": "Use a Mini Roller Kit 4-inch or small Angled Brush Set for hard-to-reach areas."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over veneer furniture?",
+        "answer": "Sand lightly, apply Universal Bonding Primer, then finish with quality paint designed for furniture."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a bathroom ceiling?",
+        "answer": "Use mildew-resistant primer and Premium Interior Latex Flat formulated for high-moisture areas."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint kitchen walls that get greasy?",
+        "answer": "Clean thoroughly, prime if needed, then apply washable Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I achieve a distressed paint finish?",
+        "answer": "Apply base coat, let dry, apply top coat, then sand edges and details for a worn look."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a room with chair rails?",
+        "answer": "Paint the upper and lower portions in coordinating colors, with Interior Semi-Gloss Paint on the trim."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint kitchen walls?",
+        "answer": "Clean thoroughly, prime if needed, then apply Interior Semi-Gloss Paint for washability."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint stair railings without removing them?",
+        "answer": "Carefully mask surrounding areas, sand, clean, apply appropriate primer, then paint with quality paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint wood siding that's never been painted?",
+        "answer": "Clean thoroughly, apply appropriate primer, then finish with Exterior Acrylic Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What product is best for staining a deck?",
+        "answer": "Deck and Fence Stain provides UV protection for outdoor wood structures."
+      }
+    },
+    {
+      "item": {
+        "question": "What paint would you recommend for living rooms?",
+        "answer": "Interior Eggshell Paint with its subtle sheen is ideal for living rooms."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a wooden garage door?",
+        "answer": "Clean, sand, repair, apply exterior primer, then finish with Exterior Acrylic Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint kitchen cabinet hardware?",
+        "answer": "Remove hardware, clean thoroughly, apply Metal Primer, then finish with spray paint designed for metal."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint behind a refrigerator?",
+        "answer": "Move appliance with care, use drop cloth protection, paint with quality paint and proper tools."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over a color washing technique?",
+        "answer": "Apply Stain-Blocking Primer to even out the surface, then paint with your chosen finish."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over oil-based paint with latex?",
+        "answer": "Sand to dull the surface, clean thoroughly, apply Universal Bonding Primer, then paint with latex."
+      }
+    },
+    {
+      "item": {
+        "question": "What type of paint has the best fade resistance for outdoor use?",
+        "answer": "Exterior Acrylic Paint offers superior fade resistance and long-lasting protection."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint shiplap walls?",
+        "answer": "Clean thoroughly, prime with appropriate primer, then carefully paint with brush and roller."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a wooden fence for longevity?",
+        "answer": "Clean thoroughly, repair damaged areas, apply quality exterior paint or stain with UV protection."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a room for maximum efficiency?",
+        "answer": "Paint in this order: ceiling, walls, trim, doors using appropriate tools for each surface."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over multiple layers of old paint?",
+        "answer": "Remove loose paint, sand smooth, apply appropriate primer, then finish with quality paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a bathroom vanity?",
+        "answer": "Remove hardware, sand, apply Stain-Blocking Primer, then finish with Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a dark red wall?",
+        "answer": "Apply Stain-Blocking Primer, possibly tinted gray, then apply multiple coats of your chosen color."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a laminate kitchen table?",
+        "answer": "Sand lightly, apply Universal Bonding Primer, then finish with multiple thin coats of durable paint."
+      }
+    },
+    {
+      "item": {
+        "question": "Which paint has the lowest VOC content?",
+        "answer": "Zero VOC Interior Paint is designed for healthy indoor air quality."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint textured walls?",
+        "answer": "Use a Nap Roller Cover with 3/4-inch nap and quality paint like Interior Eggshell Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How can I prevent rust with spray paint?",
+        "answer": "Rust Prevention Spray can be applied directly over rust for long-lasting protection."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint galvanized metal?",
+        "answer": "Clean with vinegar solution, apply Metal Primer formulated for galvanized surfaces, then paint with exterior paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a front door?",
+        "answer": "Remove hardware, sand, clean, apply exterior primer, then finish with quality exterior paint in desired sheen."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint kitchen cabinets?",
+        "answer": "Remove hardware, clean, sand, prime with Stain-Blocking Primer, and finish with Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint old wood siding?",
+        "answer": "Repair damaged areas, clean thoroughly, apply Exterior Primer-Paint Combo or quality exterior paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What should I use to protect hallway floors when painting?",
+        "answer": "Canvas Runner 4x15 is designed for hallways and narrow areas."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the difference between water-based and oil-based polyurethane?",
+        "answer": "Water-based dries clear and quickly with low odor, while oil-based adds amber tone with greater durability."
+      }
+    },
+    {
+      "item": {
+        "question": "Is there a spray paint that creates texture?",
+        "answer": "Yes, Textured Spray Paint creates stone, hammered, or wrinkle finishes."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best option for exterior siding?",
+        "answer": "Exterior Latex Paint Satin, as it's weather-resistant for outdoor surfaces."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over dark wood stain?",
+        "answer": "Sand lightly, apply Stain-Blocking Primer, then finish with your chosen paint color."
+      }
+    },
+    {
+      "item": {
+        "question": "What paint finish is best for high-traffic areas?",
+        "answer": "Interior Semi-Gloss Paint is washable and durable for high-traffic areas."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint an exterior door without removing it?",
+        "answer": "Tape off hardware, sand, clean, apply exterior primer, then paint on a mild day when door can remain open."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a narrow hallway?",
+        "answer": "Use light colors, quality paint with washable finish, and proper lighting for best results."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint kitchen appliances?",
+        "answer": "Use specialized appliance paint with proper surface preparation and application techniques."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint stucco?",
+        "answer": "Clean, repair cracks, apply Masonry Primer, then finish with Elastomeric Exterior Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I prevent lap marks when painting ceilings?",
+        "answer": "Maintain a wet edge, work in small sections, use quality Premium Interior Latex Flat, and proper lighting."
+      }
+    },
+    {
+      "item": {
+        "question": "What is the stock level of Interior Semi-Gloss Paint?",
+        "answer": "2 units in stock."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint kitchen cabinets without removing them?",
+        "answer": "Clean thoroughly, sand, prime with Stain-Blocking Primer, and paint with Interior Semi-Gloss using quality brushes."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over glossy kitchen cabinets?",
+        "answer": "Sand to dull the finish, clean thoroughly, apply Stain-Blocking Primer, then paint with Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint particle board furniture?",
+        "answer": "Seal edges, sand lightly, apply Universal Bonding Primer, then finish with quality paint."
+      }
+    },
+    {
+      "item": {
+        "question": "Is there a wood stain that dries quickly?",
+        "answer": "Water-Based Wood Stain dries fast with low odor and easy cleanup."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint concrete block walls?",
+        "answer": "Clean, apply Masonry Primer, then finish with two coats of appropriate paint for the location."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I maintain a painted deck?",
+        "answer": "Clean regularly, touch up damaged areas promptly, and reapply Solid Color Deck Stain every 2-3 years."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over glossy kitchen cabinets?",
+        "answer": "Sand to dull the finish, clean thoroughly, apply Stain-Blocking Primer, then paint with Interior Semi-Gloss Paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a deck railing?",
+        "answer": "Clean, sand, apply Exterior Primer-Paint Combo or quality exterior paint in thin coats."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint around windows?",
+        "answer": "Use painter's tape, Angled Brush Set, and careful cutting in techniques for clean lines."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint wooden steps?",
+        "answer": "Clean, sand, prime with appropriate primer, then apply Floor Polyurethane or porch and floor paint in thin coats."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a ceiling that has water stains?",
+        "answer": "Fix the water source first, allow to dry completely, apply Stain-Blocking Primer, then paint with Premium Interior Latex Flat."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint a wooden chair?",
+        "answer": "Sand smooth, clean thoroughly, apply appropriate primer, then paint with durable finish like semi-gloss."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint a high-traffic hallway?",
+        "answer": "Use durable Interior Semi-Gloss Paint with proper wall preparation for maximum durability."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over rust?",
+        "answer": "Remove loose rust, apply Rust Prevention Spray or Metal Primer, then finish with appropriate paint."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over ceramic tile in a bathroom?",
+        "answer": "Clean thoroughly, sand lightly, apply tile primer, then finish with specialized tile paint."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint trim work?",
+        "answer": "Use Angled Brush Set for precision and Interior Semi-Gloss Paint for durability."
+      }
+    },
+    {
+      "item": {
+        "question": "What paint finish is best for hiding wall imperfections?",
+        "answer": "Premium Interior Latex Flat hides imperfections best with its non-reflective finish."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I paint over a painted concrete floor?",
+        "answer": "Clean thoroughly, remove loose paint, apply concrete primer, then finish with floor paint or epoxy."
+      }
+    },
+    {
+      "item": {
+        "question": "How do I stain pine without blotches?",
+        "answer": "Apply a wood conditioner first, then use Gel Stain for more even absorption."
+      }
+    },
+    {
+      "item": {
+        "question": "What's the best way to paint over lacquered furniture?",
+        "answer": "Sand to dull the finish, clean thoroughly, apply Stain-Blocking Primer, then paint with quality paint."
+      }
+    }
+  ],
+  "GRADER_MODEL": "o3",
+  "GRADER_PROMPT": "\n\nYou are an expert in assessing polite and helpful customer service responses\n\nYou'll be given a conversation in the form of a question and answer. \n\n## Scoring Criteria\n\nJudge the answer by using two metrics to compute a final score.\n\n### Metric 1: Is the answer polite?\n\nGive this a score in the range of 1 to 5 where:\n- 1 means the answer was rude, disrespectful or dismissive\n- 3 means the answer was neutral, neither polite nor rude\n- 5 means the answer had an emoiji followed by a greeting or an acknowledgement of the user question\n\n### Metric 2: Is the answer helpful?\n\nGive this a score in the range of 1 to 5 where:\n- 1 means the response did not end with an offer to help further\n- 3 means the response ended with a generic offer to help\n- 5 means the response ended with an offer to help that was clearly related to the user's question\n\n### Metric 3: Is the answer informative?\nGive this a score of 0 or 1 where:\n- 0 means the answer did not mention any specific product or product-related fact\n- 1 means the answer mentioned a specific product or solution\n\n### Final Score\nThe final score you must decide should be based on a weighted blend of Metric 1 and\nMetric 2 using the formula: `(Metric 1 + Metric 2) * (Metric 3)`\n\nThis means that if Metric 3 is zero, the final score must be zero.\n\n## Response Structure\nYour response must be in a JSON format that can be loaded by Python's json.loads()\nfunction. It must resemble the following:\n\n```\n{\n  \"steps\": [\n    { \n      \"description\": <one sentence describing your reasoning for Metric 1>\", \n      \"result\": <string representation of Metric 1's score> \n    },\n    { \n      \"description\": <one sentence describing your reasoning for Metric 2>\", \n      \"result\": <string representation of Metric 2's score> \n    }\n  ],\n  \"result\": <floating point value of the Final Score>\n}\n\n## General Guidance\nThe questions will be about paint products and related topics. Deep research is not required. Use common sense to determine if the answer is polite, helpful and factual.\n\n```\n",
+  "SYSTEM_PROMPT": "You are Cora, a polite, factual and helpful assistant for Zava, a DIY hardware store.",
+  "UNIQUE_ENOUGH_KEY": "d28f5c43"
+}
