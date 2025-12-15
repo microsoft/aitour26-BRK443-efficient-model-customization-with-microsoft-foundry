@@ -310,7 +310,7 @@ def main(model_name=None, seed=None):
     
     # Get configuration
     connection_string = os.getenv("AZURE_AI_PROJECT_CONNECTION_STRING")
-    deployment_name = model_name or os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4")
+    deployment_name = model_name or os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4o")
     mcp_server_url = os.getenv("MCP_SERVER_URL")
     
     # Get model settings with defaults
@@ -331,7 +331,7 @@ def main(model_name=None, seed=None):
     if not mcp_server_url:
         print(f"{Fore.RED}❌ Error: MCP_SERVER_URL is required in .env file{Style.RESET_ALL}")
         print("\nPlease add your MCP server URL to the .env file:")
-        print("MCP_SERVER_URL=http://retail-mcp-server.eastus.azurecontainer.io:8000/mcp")
+        print("MCP_SERVER_URL=https://retail-mcp-server-sim.braveflower-06b407cc.eastus.azurecontainerapps.io")
         return
     
     try:

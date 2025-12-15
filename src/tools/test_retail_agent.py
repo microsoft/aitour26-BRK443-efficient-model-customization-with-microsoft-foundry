@@ -71,7 +71,7 @@ class RetailAgentTester:
     def __init__(self, connection_string=None, model_name=None, mcp_server_url=None):
         """Initialize the tester with Azure configuration."""
         self.connection_string = connection_string or os.getenv("AZURE_AI_PROJECT_CONNECTION_STRING")
-        self.model_name = model_name or os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4")
+        self.model_name = model_name or os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4.1")
         self.mcp_server_url = mcp_server_url or os.getenv("MCP_SERVER_URL")
         
         # Ensure MCP URL ends with /mcp
