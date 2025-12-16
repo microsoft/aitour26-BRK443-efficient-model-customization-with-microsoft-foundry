@@ -5,7 +5,7 @@ class:
  - lead
 paginate: true
 author: Nitya Narasimhan
-title: Efficient Model Customization with Azure AI Foundry
+title: Efficient Model Customization with Microsoft Foundry
 style: |
   .fa-github { color: goldenrod; }
   .fa-discord { color: green; }
@@ -16,7 +16,7 @@ footer: <i class="fa-brands fa-discord"></i> aka.ms/foundry/discord &nbsp;&nbsp;
 
 ![bg right:35% grayscale](./../docs/slides/bg.png)
 
-### Efficient Model Customization with Azure AI Foundry
+### Efficient Model Customization with Microsoft Foundry
 
 <hr/>
 
@@ -40,7 +40,7 @@ My name is XXX (introduce yourself)
 <!--
 _speaker_notes: Slide 2
 
-Today we'll talk about how Azure AI Foundry can help you customize those base models to meet your cost, quality and performance needs!
+Today we'll talk about how Microsoft Foundry can help you customize those base models to meet your cost, quality and performance needs!
 
 -->
 
@@ -146,7 +146,7 @@ We can see how our use cases map to these segments - but wouldn't it be really c
 <!--
 _speaker_notes:
 
-This is where Azure AI Foundry can help!! With the latest updates, you have faster models, easier workflows and features like Developer Tier that help you test fine-tuned models without hosting fees - just the cost of inference!
+This is where Microsoft Foundry can help!! With the latest updates, you have faster models, easier workflows and features like Developer Tier that help you test fine-tuned models without hosting fees - just the cost of inference!
 
 Let's take a closer look!
 

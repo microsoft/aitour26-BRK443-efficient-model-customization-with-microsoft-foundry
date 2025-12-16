@@ -94,6 +94,8 @@ configure_environment_variables() {
     azd env set USE_APPLICATION_INSIGHTS true
     azd env set ENABLE_AZURE_MONITOR_TRACING true
     azd env set AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED true
+    azd env set AZURE_TRACING_STORAGE_ACCOUNT_NAME "st${AZURE_ENV_NAME}"
+    azd env set AZURE_TRACING_STORAGE_BLOB_CONTAINER_NAME "gen-ai-content"
     
     echo -e "${GREEN}✓ Base environment variables configured${NC}"
 }

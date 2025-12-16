@@ -1,11 +1,11 @@
-# Act 2: Fine Tuning Options in Azure AI Foundry
+# Act 2: Fine Tuning Options in Microsoft Foundry
 
 ## 1. Setup Environment
 
 This README documents the steps required to setup and run the demos for Act 2. By this time you should have setup infrastructure as follows:
 
 1. Use the Azure CLI to log into Azure from VS Code terminal (create credential)
-1. Run the script to create an Azure AI Foundry project with Azure AI Search resource
+1. Run the script to create an Microsoft Foundry project with Azure AI Search resource
 1. (Optional) Manually add an App Insights resource via thr `Tracing` tab
 1. Create the `.env` file and update it with relevant environment variables
 1. Run the script to update role access permissions for updating the search index
@@ -16,7 +16,7 @@ This README documents the steps required to setup and run the demos for Act 2. B
 
 ## 2. Run Notebook: `00-getting-started.ipynb`
 
-1. Deploy additinal AI models in the Azure AI Foundry (manually)
+1. Deploy additinal AI models in the Microsoft Foundry (manually)
 1. Run the notebook to get a sense for latency/token cost for a basic prompt
 1. **Select GPT-4.1 AS BASE MODEL FOR NOW** - we will customize this, next
 
@@ -24,9 +24,9 @@ This README documents the steps required to setup and run the demos for Act 2. B
 
 ## 3. Customize - With Few Shot Prompts
 
-We want to modify the tone & style of Cora's responses to user questions. Let's see how far we can get with prompt engineering. For convenience, we'll use the Azure AI Foundry playground.
+We want to modify the tone & style of Cora's responses to user questions. Let's see how far we can get with prompt engineering. For convenience, we'll use the Microsoft Foundry playground.
 
-1. Visit Azure AI Foundry Portal (https://ai.azure.com)
+1. Visit Microsoft Foundry Portal (https://ai.azure.com)
 1. Select the base model `gpt-4.1` and click _Open in playground_.
 1. Set system message to _You are Cora, a polite, factual and helpful assistant for Zava, a DIY hardware store._ - then click **Apply Changes** to enforce it.
 1. Try a sample prompt: 

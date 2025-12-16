@@ -81,7 +81,7 @@ cd scripts/
 - Whether to enable Azure AI Search (yes/no)
 
 **Result:**
-- Azure AI Foundry project created
+- Microsoft Foundry project created
 - AI models deployed
 - (Optional) Search service configured
 
@@ -390,7 +390,7 @@ The following Bicep files were modified to support dynamic model deployments:
 ## 📚 Additional Resources
 
 - **ForBeginners Repository:** https://github.com/microsoft/ForBeginners
-- **Azure AI Foundry:** https://learn.microsoft.com/azure/ai-studio/
+- **Microsoft Foundry:** https://learn.microsoft.com/azure/ai-studio/
 - **Azure Developer CLI:** https://learn.microsoft.com/azure/developer/azure-developer-cli/
 - **Azure OpenAI Models:** https://learn.microsoft.com/azure/ai-services/openai/concepts/models
 - **Azure AI Agent Service:** https://learn.microsoft.com/azure/ai-services/agents/
@@ -444,7 +444,7 @@ cd scripts/
 
 ## 📚 Learn More
 
-- **Azure AI Foundry:** [learn.microsoft.com/azure/ai-studio](https://learn.microsoft.com/azure/ai-studio/)
+- **Microsoft Foundry:** [learn.microsoft.com/azure/ai-studio](https://learn.microsoft.com/azure/ai-studio/)
 - **Azure Developer CLI:** [learn.microsoft.com/azure/developer/azure-developer-cli](https://learn.microsoft.com/azure/developer/azure-developer-cli/)
 - **Azure OpenAI Models:** [learn.microsoft.com/azure/ai-services/openai/concepts/models](https://learn.microsoft.com/azure/ai-services/openai/concepts/models)
 

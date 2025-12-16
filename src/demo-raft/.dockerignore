@@ -1,5 +1,0 @@
-# Ignore everything
-*
-
-# Allow files required to build Dev Container image
-!/requirements.txt

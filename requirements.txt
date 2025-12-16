@@ -2,6 +2,7 @@
 mkdocs-material
 
 ## Core libraries
+ipython
 python-dotenv   # Environment variables
 ipykernel       # Jupyter Notebooks
 uv              # MCP Server
@@ -10,21 +11,19 @@ uv              # MCP Server
 matplotlib==3.10.3  # For creating visualizations
 numpy==2.3.1        # For numerical computations
 pandas              # For data manipulation and analysis
+colorama
+seaborn
+scikit-learn
 
-## ..... Setup: Product Index
-azure-search-documents==11.5.3  # For Azure AI Search
-
-
-## ..... Demo 1: Basic Fine Tuning 
-openai 
-requests 
-tiktoken 
-
-## ..... Demo 2: Distillation 
-azure-identity                 # For Azure authentication
+## ..... Setup: Product Index & Azure AI SDK Dependencies
+azure-identity                          # For Azure authentication
+azure-search-documents==11.5.3          # For Azure AI Search
 azure-mgmt-cognitiveservices   # For model deployment
+azure-ai-evaluation==1.12.0             # For model evaluation (pinned to 1.12.0 - stable version from Oct 2, 2025)
+azure-ai-projects==1.0.0
+azure-ai-agents==1.2.0b6
 
-## ..... Demo 3: RAFT
-## Installs dependencies for the RAFT demo
--r src/demo-raft/requirements.txt
--r src/demo-raft/data/articles/requirements.txt
+## ..... Azure OpenAI Dependencies
+openai==2.7.2              # Azure OpenAI Python client
+requests==2.32.5           # HTTP requests library
+tiktoken==0.12.0           # Tokenization library for OpenAI models 
