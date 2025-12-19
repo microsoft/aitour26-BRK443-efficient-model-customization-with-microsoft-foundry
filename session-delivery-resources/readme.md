@@ -1,79 +1,97 @@
-# How to deliver this session
+# BRK443: How To Deliver This Session
 
-_Thank you for delivering this session on the Microsoft AI Tour!_
+This document provides guidance for speakers delivering the session on "Efficient Model Customization with Microsoft Foundry". 
 
 ## 1. Before You Begin
 
-Take these actions to familiarize yourself with the content!
+This is a complex topic with multiple demos that you need to cover in 45 minutes. We recommend taking these steps to get comfortable with the resources and the narrative using Zava! 
 
 | | |
-|:---|:---| 
-| READ | This document! It is your instruction guide. |
-| DOWNLOAD | The Session Delivery Deck linked below! |
-| WATCH | The Session Recording for delivery tips .. |
-| CUSTOMIZE | The Downloaded Deck to fit your presentation style |
-| ASK | The Content Leads listed for any clarifications!  |
-| | |
-
-
-## 2. Prepare Demos Early
-
-This session focuses on Fine-Tuning for model customization. This is not a technique you can demo "live" given it requires an hour or more for even the simplest demo.
-
-Instead, we recommend the "Cooking demo" approach:
-
-1. Setup the demo **a day in advance**. Check that FT jobs completed.
-1. Keep the demo staged on your laptop during your session.
-1. Play the pre-recorded demo video during the talk itself.
-1. Switch to staged demo only to show final outcome or answer questions.
-
-
-## 3. Your Session Resources 
-
-| Resources          | Links                            | Description |
-|-------------------|----------------------------------|-------------------|
-| Session Delivery Deck   |  [Deck](https://aka.ms/AAxww64) |  The Powerpoint slides for this breakout.|
-| Session Delivery Recording (End to end) | [Video](https://youtu.be/kRaMKIlV-CE) | Recorded version of talk with tips for delivery.  |
-| Recording - Demo 1 | [Video](https://aka.ms/AAxugli) | Supervised Fine Tuning (Demo video) |
-| Recording - Demo 2 | [Video](https://aka.ms/AAxuglh) | Distillation with Fine Tuning (Demo video) |
-| Recording - Demo 3 | [Video](https://aka.ms/AAxuglk) | RAFT: Retrieval Augmented Fine-Tuning (Demo Video) |
-| Demo 1 Setup Guide |[Demo](./../src/demo-distillation/README.md)  | Guide to setting up and reproducing demos yourself if necessary. (We provide pre-recorded videos) |
-| Demo 2 Setup Guide |[Demo](./../src/demo-raft/README.md)  | Guide to setting up and reproducing demos yourself if necessary. (We provide pre-recorded videos) |
+|:---|:---|
+| ✔️ | Read the document - get familiar with resources |
+| ✔️ | Download the session deck - review the flow of talk|
+| ✔️ | Download & watch videos - get familiar with the demos |
+| ✔️ | Prepare demos 1 day before - using your own subscription|
+| ✔️ | Customize your deck - to reflect your name, affiliation|
+| ✔️ | Reach out to content leads - if you have any questions |
 | | |
 
 
-## 4. Session Pacing
+<br/>
 
-The figure below shows a high-level view of the speaker deck sections. This is a 45-minute session with three demos that will take up most of the time, so pace yourself accordingly. **When necessary, prioritize demo time over slides**.
+## 2. Review Resources 
 
-![Speaker Deck](./../docs/assets/Speaker-Deck.png)
+The repository has a `src/` directory that contains all the required Python notebooks and data files used for the demos. The session slides and demo recordings have been uploaded to a cloud store and links provided below. 
 
-The talk is structured as four acts. Here is how we suggest you allocate time:
+_You will need to download these assets to your local device for review_.
 
-- **Row 1** - _Welcome_: Introduction & Agenda (1 min)
-- **Row 2** - _Act 1_: Unlock Business Value with Fine Tuning (10 min)
-- **Row 3** - _Act 2_: Fine Tuning In Microsoft Foundry (Demo) (10 min)
-- **Row 4** - _Act 3_: Retrieval Augmented Fine Tuning (Demo) (10 min)
-- **Row 5** - _Wrap-up_: Take-away Messages & CTAs (4 min)
+| | ||
+|:---|:---|:---|
+| Presentation   |  [Deck](https://aka.ms/AAxww64) |  Powerpoint slides for the session.|
+| Walkthrough | [Video](https://youtu.be/kRaMKIlV-CE) | Recorded end-to-end walkthrough for reference.  |
+| Introduction | Video | Reviews the [00-introduction](./../src/00-introduction.ipynb) notebook|
+| Setup | Video | Reviews the [00-setup](./../src/00-setup.md) markdown file with setup steps |
+| Recorded Demo 1 | Video | Reviews the [01-custom-grader](./../src/01-custom-grader.ipynb) notebook for demo 1|
+| Recorded Demo 2 | Video | Reviews the [02-basic-fine-tuning](./../src/02-basic_fine-tuning.ipynb) notebook for demo 2 |
+| Recorded Demo 3 | Video | Reviews the [03-tool-calling-fine-tuning](./../src/03-tool-calling-fine-tuning.ipynb) notebook for demo 3 |
+| | |
 
-The table below gives a slighly more detailed breakdown - this is a recommended flow but please feel free to reduce time spent on slides _and focus more time on the demos_. 
 
-| Row | Time | Description | Slides |
-|:---|:---|:---|:---|
-| 1 | 1 min | Welcome attendees · Introduce yourself and session topic | 3-4 |
-| 2 | 10 min  | Introduce Zava Scenario · Explain their model customization journey · How can Microsoft Foundry help Zava? | 5-11 |
-| 3 | 2 min  | Introduce fine-tuning options on Azure · Explain platform benefits | 12-15 |
-|  | 4 min  | How Basic Fine Tuning Works · Let's See The Demo  | 14, Play Recording |
-|  | 4 min  | How Distillation Works · Let's See The Demo  | 16, Play Recording |
-| 4 | 5 min  | What is Retrieval-Augemented Fine Tuning? | 18-23 |
-|   | 15 min  | How RAFT Works · Let's See The Demo  | 24-25, Play Recording |
-| 5 | 5 min | 2 Takeaway Messages · Recap Visual · Venue CTA (TBA) | 27-30 |
-| | | 
 
-You will not have time for Q&A during the session given the content - instead, we recommend you ask listeners to come speak to you after the session. This also gives you time to show relevant outcomes or answer questions _using the staged version of the demo on your laptop_ for more realistic interactions.
+<br/>
 
-## 5. Session Demo (Setup) 
+## 3. Prepare The Demos
 
-Follow the instructions in the following docs to set-up your demo environment:
-1. [Distillation demo set-up guide](./../src/demo-distillation/README.md)
-2. [RAFT demo set-up guide](./../src/demo-raft/README.md)
+This breakout session takes the audience on a journey into model customization for a "Zava Retail" use case involving DIY equipment. This is not a technique you can demo _live_ since the fine-tuning workflow can take an hour or more to complete based on GPU availability. 
+
+_Try using this Cooking Demo approach instead_.
+
+| | |
+|:---|:---|
+| **1 Day Before** | ✔️ Setup demo. Verify FT jobs completed. |
+| **1 Day Before** | ✔️ Deploy to Dev Tier. Will be live for 24h. |
+| **5 mins Before**| ✔️ Stage demo. Keep Browser tabs open |
+| **During the Talk** | ✔️ Play pre-recorded demos to keep time|
+| **After The Talk** | ✔️ Use staged demo for final step, Q&A|
+| **After The Session** | ✔️ Remeber to tardown the Azure resources |
+| |  |
+
+<br/>
+
+
+## 4. Prepare The Presentation
+
+Download the presentation and customize it with your profile picture, role and affiliation. You may want to customize speaker notes in _your copy_ to reflect your own sense of pacing and speaker style. The figure below gives high-level guidance on how to distribute session time across the sections in the outline.
+
+
+||| |
+|:---|:---|:---|
+| 1 min | Row 1 | Introduce yourself, the topic and the talk outline |
+| 5 min | Row 2 | Introduce the Zava scenario, motivation for fine-tuning |
+| 5 min | Row 3 | Introduce Microsoft Foundry, support for fine-tuning|
+| 30 min | Row 4 | Walk through the 3 demos, use slides if/when needed |
+| 4 min | Row 5| Review what we learned, share the CTAs for next steps|
+| | | |
+
+The main takeaway messages are:
+
+1. Model customization is key to model behavior adaptation for cost or quality
+1. Microsoft Foundry offers the most choices in models, tools & features for fine-tuning
+1. Our tools streamline AI ops from datagen to evaluation, fine-tuning & deployment
+
+
+
+![Speaker Deck](./../img/BRK443-Talk-Outline.png)
+
+
+<br/>
+
+## 5. Tips & Recommendations
+
+Here are some practical tips to help you deliver the session better:
+
+1. **Use pre-recorded demos** during the session, to keep on time. Then use the staged demos when answering questions or to show the final outcome at the end, so audience gets a sense for the Microsoft Foundry portal and experience.
+1. **Organize browser tabs into groups** if you use Microsoft Edge. This lets you use group names to show progression (1-Setup, 2-Custom-Grader) and keep Microsoft Foundry pages for each staged demo ready in separate tabs. This saves time - but also gives visual cues for developer journeys.
+1. **Developer Tier lasts 24 h**. Once an FT job completes, you can deploy that to developer tier for "free" hosting for 24 hours so you can test it. The deployment is auto-deleted at that time. SO make sure you create a new deployment 12-18 hours before your session time so it is still live at that time.
+1. **Delete Resource Group**. Once your session is over, don't forget to delete the resource group and make sure all resources are purged. This prevents unanticipated costs to your Azure subscriptions.
+

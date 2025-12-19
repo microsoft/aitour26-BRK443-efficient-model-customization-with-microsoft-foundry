@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Dec 19, 2025
+
+**Session Delivery Resources**
+- Uploaded resources to cloud storage
+- Updated `session-delivery-resources/README.md` to reflect changes
+- Removed all unused files (including `mkdocs.yml` and `docs/`)
+
 ## Dec 15, 2025
 
 **Post-Ignite Repository Refresh (Oct 29 - Dec 15)**
