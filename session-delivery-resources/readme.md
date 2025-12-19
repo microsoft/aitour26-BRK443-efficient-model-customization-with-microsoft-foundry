@@ -28,12 +28,12 @@ _You will need to download these assets to your local device for review_.
 | | ||
 |:---|:---|:---|
 | Presentation   |  [Deck](https://aka.ms/AAxww64) |  Powerpoint slides for the session.|
-| Walkthrough | [Video](https://youtu.be/kRaMKIlV-CE) | Recorded end-to-end walkthrough for reference.  |
-| Introduction | Video | Reviews the [00-introduction](./../src/00-introduction.ipynb) notebook|
-| Setup | Video | Reviews the [00-setup](./../src/00-setup.md) markdown file with setup steps |
-| Recorded Demo 1 | Video | Reviews the [01-custom-grader](./../src/01-custom-grader.ipynb) notebook for demo 1|
-| Recorded Demo 2 | Video | Reviews the [02-basic-fine-tuning](./../src/02-basic_fine-tuning.ipynb) notebook for demo 2 |
-| Recorded Demo 3 | Video | Reviews the [03-tool-calling-fine-tuning](./../src/03-tool-calling-fine-tuning.ipynb) notebook for demo 3 |
+| Walkthrough | [Video](https://aka.ms/AAz1yuu) | Recorded end-to-end walkthrough for reference.  |
+| Introduction | [Video](https://aka.ms/AAz1yuy) | Reviews the [00-introduction](./../src/00-introduction.ipynb) notebook|
+| Setup | [Video](https://aka.ms/AAz2e1l) | Reviews the [00-setup](./../src/00-setup.md) markdown file with setup steps |
+| Recorded Demo 1 | [Video](https://aka.ms/AAz1yuv) | Reviews the [01-custom-grader](./../src/01-custom-grader.ipynb) notebook for demo 1|
+| Recorded Demo 2 | [Video](https://aka.ms/AAz1yux) | Reviews the [02-basic-fine-tuning](./../src/02-basic_fine-tuning.ipynb) notebook for demo 2 |
+| Recorded Demo 3 | [Video](https://aka.ms/AAz1yuw) | Reviews the [03-tool-calling-fine-tuning](./../src/03-tool-calling-fine-tuning.ipynb) notebook for demo 3 |
 | | |
 
 
@@ -48,9 +48,8 @@ _Try using this Cooking Demo approach instead_.
 
 | | |
 |:---|:---|
-| **1 Day Before** | ✔️ Setup demo. Verify FT jobs completed. |
-| **1 Day Before** | ✔️ Deploy to Dev Tier. Will be live for 24h. |
-| **5 mins Before**| ✔️ Stage demo. Keep Browser tabs open |
+| **1 Day Before** | ✔️ Setup demo. Deploy to Dev Tier. |
+| **10 mins Before**| ✔️ Stage demo. Keep Browser tabs open |
 | **During the Talk** | ✔️ Play pre-recorded demos to keep time|
 | **After The Talk** | ✔️ Use staged demo for final step, Q&A|
 | **After The Session** | ✔️ Remeber to tardown the Azure resources |
