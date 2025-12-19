@@ -48,8 +48,9 @@ _Try using this Cooking Demo approach instead_.
 
 | | |
 |:---|:---|
-| **1 Day Before** | ✔️ Setup demo. Deploy to Dev Tier. |
-| **10 mins Before**| ✔️ Stage demo. Keep Browser tabs open |
+| **1 Day Before** | ✔️ Setup demo. Verify FT jobs completed. |
+| **1 Day Before** | ✔️ Deploy to Dev Tier. Will be live for 24h. |
+| **5 mins Before**| ✔️ Stage demo. Keep Browser tabs open |
 | **During the Talk** | ✔️ Play pre-recorded demos to keep time|
 | **After The Talk** | ✔️ Use staged demo for final step, Q&A|
 | **After The Session** | ✔️ Remeber to tardown the Azure resources |
